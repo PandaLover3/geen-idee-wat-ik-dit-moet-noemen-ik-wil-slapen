@@ -1,22 +1,24 @@
 import random
-import curses
+import pygame
+import sys
 
-curses.initscr()
-win = curses.newwin(20,60,0,0)
-win.keypad(1)
-curses.noecho()
-curses.curs_set(0)
-win.border(0)
-win.nodelay(1)
-score = 0
+class snake(object):
+  def init (self):
+    pass
 
-while True:
-    event = win.getch()
-
-
-
-
-
-curses.endwin()
-print(f"final score = {score}")
-
+ def _init_(self):
+     pass
+ def get_head_position(self):
+     pass
+ def turn(self, point):
+     pass
+ def move(self):
+     pass
+ def reset(self):
+     pass
+ def draw(self, surface):
+     pass
+ def handle_keys(self):
+     pass
+class food(object):
+    pass
